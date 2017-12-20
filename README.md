@@ -47,6 +47,14 @@ install using `npm` or `yarn`
 npm install --save react-mobile-store-button
 ```
 
+## How to Run the Example
+
+```bash
+git clone https://github.com/rizzomichaelg/react-mobile-store-button.git
+cd react-mobile-store-button/example
+yarn && yarn start
+```
+
 ## License
 MIT
 
