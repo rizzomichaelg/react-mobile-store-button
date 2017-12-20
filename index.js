@@ -1,2 +1,2 @@
-module.exports = require('./lib/AppStoreButton');
-exports.default = require('./lib/AppStoreButton');
+module.exports = require('./lib/MobileStoreButton');
+exports.default = require('./lib/MobileStoreButton');

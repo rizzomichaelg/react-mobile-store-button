@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+}
+
+.App, #root {
+  text-align: center;
+  height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.d-grid {
+  display: grid !important;
+  height: calc(100% - 170px);
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 12.5% 0 12.5%;
+  background: #5c97e6;
+  background: -webkit-linear-gradient(top left,#5c97e6,#4069a1);
+  background: -webkit-gradient(linear,left top,right bottom,from(#5c97e6),to(#4069a1));
+  background: -o-linear-gradient(top left,#5c97e6,#4069a1);
+  background: linear-gradient(to bottom right,#5c97e6,#4069a1);
+}
+
+.grid-column {
+  padding-top: 50px;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+      align-items: center !important;
+}

@@ -1,39 +1,46 @@
 {
-  "name": "react-appstore-button",
-  "version": "0.0.9",
-  "description": "An react component which allows you to place an App Store Download button in few seconds",
+  "name": "react-mobile-store-button",
+  "version": "0.0.0",
+  "description": "A react component which allows you to place an iOS App Store or Google Play Store Download button!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arkilis/react-AppStore-Button.git"
+    "url": "git+https://github.com/rizzomichaelg/react-mobile-store-button.git"
   },
   "keywords": [
-    "AppStore",
     "App",
-    "App",
-    "Store",
+    "AppStore button",
     "AppStore",
     "button",
-    "AppStore button",
-    "react",
+    "PlayStore",
     "react component",
-    "react-component"
+    "react",
+    "react-component",
+    "Store"
   ],
-  "author": "Yang Liu",
+  "author": "Mike Rizzo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arkilis/react-AppStore-Button/issues"
+    "url": "https://github.com/rizzomichaelg/react-mobile-store-button/issues"
   },
-  "homepage": "https://github.com/arkilis/react-AppStore-Button#readme",
+  "homepage": "https://github.com/rizzomichaelg/react-mobile-store-button#readme",
+  "scripts": {
+    "build": "yarn babel src -d lib"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0"
+  },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-loader": "^7.1.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "react": "^15.6.1"
+    "@babel/cli": "^7.0.0-beta.35",
+    "@babel/core": "7.0.0-beta.35",
+    "@babel/preset-env": "7.0.0-beta.35",
+    "@babel/preset-react": "7.0.0-beta.35",
+    "@babel/preset-stage-2": "7.0.0-beta.35",
+    "babel-core": "^7.0.0-0",
+    "babel-loader": "8.0.0-beta.0"
   }
 }

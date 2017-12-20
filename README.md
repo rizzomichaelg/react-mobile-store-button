@@ -1,58 +1,51 @@
 ## react-appstore-button
 
-version: 0.0.9
+version: 0.0.0
 
-__What is this?__
-
-An React component which allows you to create an AppStore Download Button in a few seconds. This button:
+An React component which allows you to create an iOS App Store or Google Play Store Download Button. This button:
 
 * Using vector format, `svg` file , so don't worry about the resolution
-* Can specify your App Store button with customised `url`, `width` and `height`
-
+* Can specify your App Store button with customized `url`, `width` and `height`
+* Specify `"ios"` or `"android"`
 
 ## Usage
 
 Example Code:
 
 ```js
-import AppStoreButton from 'react-appstore-button';
+import MobileStoreButton from 'react-mobile-store-button';
 
 ////
 
-export default (props) => {
-
-	return (
-
-	<AppStoreButton 
-          url="https://itunes.apple.com/us/app/my-nbn/id1247260936?mt=8"
-          width=165
-          height=40
-        ></AppStoreButton>
-	
-	);
+export default class MyComponent extends React.Component {
+	render() {
+		const iOSUrl = 'https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8';
+		return (
+			<div>
+				<MobileStoreButton
+				  store="ios"
+				  url={iOSUrl}
+				/>
+			</div>
+		);
+	}
 }
 
 ```
 
-You will get an AppStore dwonload button on Web page looks like this:
+You will get an iOS App Store dwonload button on Web page looks like this:
 
-![http://www.arkilis.me/wp-content/uploads/2017/08/neal-react-Declarative-landing-pages-for-react.js-2017-08-03-09-14-19.png](http://www.arkilis.me/wp-content/uploads/2017/08/neal-react-Declarative-landing-pages-for-react.js-2017-08-03-09-14-19.png)
+![https://github.com/rizzomichaelg/react-mobile-store-button/blob/master/img/example.png?raw=true](https://github.com/rizzomichaelg/react-mobile-store-button/blob/master/img/example.png?raw=true)
 
 
 
 ## Install
 
-install using `npm`
+install using `npm` or `yarn`
 
 ```bash
-npm install --save react-appstore-button
+npm install --save react-mobile-store-button
 ```
-
-## Suppport & Feedback
-If you have any suggestion on this, any `Pull request` is welcome, raise an issue on github https://github.com/arkilis/react-AppStore-Button
-
-My email address: arkilis@gmail.com.
-
 
 ## License
 MIT
