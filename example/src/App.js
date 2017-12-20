@@ -8,10 +8,6 @@ const androidUrl = 'https://play.google.com';
 
 class App extends Component {
   render() {
-    const styles = {
-      height: 75,
-      width: 255,
-    }
     return (
       <div className="App">
         <header className="App-header">
