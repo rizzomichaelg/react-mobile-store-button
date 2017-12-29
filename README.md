@@ -1,7 +1,5 @@
 ## react-appstore-button
 
-version: 0.0.0
-
 An React component which allows you to create an iOS App Store or Google Play Store Download Button. This button:
 
 * Using vector format, `svg` file , so don't worry about the resolution
