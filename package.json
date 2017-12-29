@@ -35,11 +35,11 @@
     "react": "^16.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.35",
-    "@babel/core": "7.0.0-beta.35",
-    "@babel/preset-env": "7.0.0-beta.35",
-    "@babel/preset-react": "7.0.0-beta.35",
-    "@babel/preset-stage-2": "7.0.0-beta.35",
+    "@babel/cli": "^7.0.0-beta.36",
+    "@babel/core": "7.0.0-beta.36",
+    "@babel/preset-env": "7.0.0-beta.36",
+    "@babel/preset-react": "7.0.0-beta.36",
+    "@babel/preset-stage-2": "7.0.0-beta.36",
     "babel-core": "^7.0.0-0",
     "babel-loader": "8.0.0-beta.0"
   }
