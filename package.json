@@ -1,10 +1,10 @@
 {
   "name": "react-mobile-store-button",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A react component which allows you to place an iOS App Store or Google Play Store Download button!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "yarn babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -27,9 +27,6 @@
     "url": "https://github.com/rizzomichaelg/react-mobile-store-button/issues"
   },
   "homepage": "https://github.com/rizzomichaelg/react-mobile-store-button#readme",
-  "scripts": {
-    "build": "yarn babel src -d lib"
-  },
   "dependencies": {
     "prop-types": "^15.6.0",
     "react": "^16.2.0"
