@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const imageLinks = {
-  ios: 'http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg',
+  ios: 'https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg',
   android: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Get_it_on_Google_play.svg',
 };
 
