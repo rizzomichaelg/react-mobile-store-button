@@ -1,4 +1,4 @@
-## react-appstore-button
+## react-mobile-store-button
 
 An React component which allows you to create an iOS App Store or Google Play Store Download Button. This button:
 
