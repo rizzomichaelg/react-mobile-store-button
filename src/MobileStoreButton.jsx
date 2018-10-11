@@ -12,6 +12,7 @@ class MobileStoreButton extends React.Component {
     url: PropTypes.string.isRequired,
     height: PropTypes.number,
     width: PropTypes.number,
+    linkProps: PropTypes.object,
   };
   static defaultProps = {
     height: 75,
@@ -24,6 +25,7 @@ class MobileStoreButton extends React.Component {
       url,
       height,
       width,
+      linkProps,
       ...props
     } = this.props;
 
@@ -45,6 +47,7 @@ class MobileStoreButton extends React.Component {
           href={url}
           target="_blank"
           rel="noopener noreferrer"
+          {...linkProps}
         >
           &nbsp;
         </a>
