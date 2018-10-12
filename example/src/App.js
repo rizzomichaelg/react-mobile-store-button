@@ -16,10 +16,10 @@ class App extends Component {
         </header>
         <div className="d-grid">
           <div className="grid-column">
-            <MobileStoreButton store="ios" url={iOSUrl} />
+            <MobileStoreButton store="ios" url={iOSUrl} linkProps={{title: "iOS Store Button"}} />
           </div>
           <div className="grid-column">
-            <MobileStoreButton store="android" url={androidUrl} />
+            <MobileStoreButton store="android" url={androidUrl} linkProps={{title: "Android Store Button"}} />
           </div>
         </div>
       </div>
