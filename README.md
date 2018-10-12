@@ -23,6 +23,7 @@ export default class MyComponent extends React.Component {
 				<MobileStoreButton
 				  store="ios"
 				  url={iOSUrl}
+				  linkProps={{ title: 'iOS Store Button' }}
 				/>
 			</div>
 		);
