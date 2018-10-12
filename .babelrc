@@ -4,14 +4,16 @@
             "@babel/preset-env",
             {
                 "targets": {
-                    "browsers": [">1%", "last 4 versions", "Firefox ESR", "not ie < 9"],
-                    "forceAllTransforms": true
+                    "browsers": [">1%", "last 4 versions", "Firefox ESR", "not ie < 9"]
                 },
+                "forceAllTransforms": true,
                 "useBuiltIns": false
             }
         ],
-        "@babel/preset-stage-2",
         "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/proposal-class-properties"
     ],
     "ignore": ["node_modules"]
 }
