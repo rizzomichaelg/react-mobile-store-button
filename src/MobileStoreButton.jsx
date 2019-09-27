@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const imageLinks = {
   ios: 'https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg',
-  android: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Get_it_on_Google_play.svg',
+  android: 'https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png',
 };
 
 class MobileStoreButton extends React.Component {
