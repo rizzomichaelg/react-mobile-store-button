@@ -12,6 +12,7 @@ class MobileStoreButton extends React.Component {
     url: PropTypes.string.isRequired,
     height: PropTypes.number,
     width: PropTypes.number,
+    linkStyles: PropTypes.object,
     linkProps: PropTypes.object,
   };
   static defaultProps = {
@@ -25,11 +26,12 @@ class MobileStoreButton extends React.Component {
       url,
       height,
       width,
+      linkStyles,
       linkProps,
       ...props
     } = this.props;
 
-    const linkStyles = {
+    const defaultLinkStyles = {
       background: `url(${imageLinks[store]}) no-repeat`,
       backgroundSize: 'contain',
       display: 'inline-block',
@@ -38,12 +40,13 @@ class MobileStoreButton extends React.Component {
       height: '100%',
       width: '100%',
       padding: '5px',
+      ...linkStyles,
     };
 
     return (
       <div style={{ height, width, display: 'inline-block' }} {...props}>
         <a
-          style={linkStyles}
+          style={defaultLinkStyles}
           href={url}
           target="_blank"
           rel="noopener noreferrer"
