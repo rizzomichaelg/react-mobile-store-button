@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-store-button",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A react component which allows you to place an iOS App Store or Google Play Store Download button!",
   "main": "index.js",
   "engines": {
